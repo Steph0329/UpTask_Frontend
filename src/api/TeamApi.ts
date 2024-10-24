@@ -1,4 +1,4 @@
-import axios, { isAxiosError } from "axios";
+import { isAxiosError } from "axios";
 import api from '@/lib/axios';
 import { Project, TeamMember, TeamMemberForm, teamMembersSchema } from "../types";
 

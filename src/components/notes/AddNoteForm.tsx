@@ -1,5 +1,4 @@
 import { NoteFormData } from "@/types/index"
-import { error } from "console"
 import { useForm } from "react-hook-form"
 import ErrorMessage from "../ErrorMessage"
 import { useMutation, useQueryClient } from "@tanstack/react-query"

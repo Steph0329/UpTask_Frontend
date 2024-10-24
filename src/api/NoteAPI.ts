@@ -1,7 +1,6 @@
 import { isAxiosError } from "axios"
 import { Note, NoteFormData, Project, Task } from "../types"
 import api from "@/lib/axios"
-import { isInt8Array } from "util/types"
 
 type NoteAPIType = {
     formData: NoteFormData
